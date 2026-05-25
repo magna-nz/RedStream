@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:api.github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(gh repo *)",
+      "Bash(gh release *)",
+      "Bash(gh api *)",
+      "Bash(git fetch *)",
+      "Bash(git reset *)",
+      "Bash(dotnet restore *)",
+      "Bash(curl -s \"https://api.nuget.org/v3-flatcontainer/opentelemetry.api/index.json\")",
+      "Bash(python3 -c \"import json,sys; v=json.load\\(sys.stdin\\)['versions']; stable=[x for x in v if '-' not in x]; print\\('Latest stable:', stable[-1]\\); print\\('Last 5 stable:', stable[-5:]\\)\")",
+      "Bash(dotnet build *)"
+    ]
+  }
+}

@@ -1,9 +1,11 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net10.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+    <Description>In-process test fake for RedStream — unit-test handlers and reaper logic without spinning up a real Redis.</Description>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RedStream\RedStream.csproj" />
+  </ItemGroup>
 
 </Project>
