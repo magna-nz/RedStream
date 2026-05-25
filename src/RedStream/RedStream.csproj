@@ -14,6 +14,7 @@
 
   <ItemGroup>
     <InternalsVisibleTo Include="RedStream.Tests" />
+    <InternalsVisibleTo Include="RedStream.IntegrationTests" />
   </ItemGroup>
 
 </Project>
