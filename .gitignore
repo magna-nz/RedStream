@@ -55,3 +55,6 @@ Thumbs.db
 .dotnet/
 .tools/
 .nuke/temp/
+
+# Claude Code session state (local, per-developer)
+.claude/
