@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/RedStream.OpenTelemetry/RedStream.OpenTelemetry.csproj" />
+    <Project Path="src/RedStream.Testing/RedStream.Testing.csproj" />
+    <Project Path="src/RedStream/RedStream.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/RedStream.IntegrationTests/RedStream.IntegrationTests.csproj" />
+    <Project Path="tests/RedStream.Tests/RedStream.Tests.csproj" />
+  </Folder>
+</Solution>
